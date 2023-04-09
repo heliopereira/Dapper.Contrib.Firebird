@@ -8,7 +8,18 @@
     <TargetFrameworks>net461;netstandard2.0;net5.0</TargetFrameworks>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <NoWarn>$(NoWarn);CA1050</NoWarn>
+    <Copyright>2023 Hélio Pereira.</Copyright>
+    <PackageProjectUrl>https://github.com/heliopereira/Dapper.Contrib.Firebird</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/heliopereira/Dapper.Contrib.Firebird</RepositoryUrl>
+    <PackageReleaseNotes>https://github.com/heliopereira/Dapper.Contrib.Firebird</PackageReleaseNotes>
+    <PackageIcon>Dapper.png</PackageIcon>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\Dapper.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.78" />
   </ItemGroup>
