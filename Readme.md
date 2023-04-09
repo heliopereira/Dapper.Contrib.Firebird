@@ -13,7 +13,7 @@ MyGet Pre-release feed: https://www.myget.org/gallery/dapper
 
 | Package | NuGet Stable | NuGet Pre-release | Downloads | MyGet |
 | ------- | ------------ | ----------------- | --------- | ----- |
-| [Dapper.Contrib](https://www.nuget.org/packages/Dapper.Contrib.Firebird/) | [![Dapper.Contrib](https://img.shields.io/nuget/v/Dapper.Contrib.svg)](https://www.nuget.org/packages/Dapper.Contrib.Firebird/) | [![Dapper.Contrib](https://img.shields.io/nuget/vpre/Dapper.Contrib.svg)](https://www.nuget.org/packages/Dapper.Contrib.Firebird/) | [![Dapper.Contrib](https://img.shields.io/nuget/dt/Dapper.Contrib.svg)](https://www.nuget.org/packages/Dapper.Contrib.Firebird/) | [![Dapper.Contrib MyGet](https://img.shields.io/myget/dapper/vpre/Dapper.Contrib.svg)](https://www.myget.org/feed/dapper/package/nuget/Dapper.Contrib.Firebird) |
+| [Dapper.Contrib.Firebird](https://www.nuget.org/packages/Dapper.Contrib.Firebird/) | [![Dapper.Contrib.Firebird](https://img.shields.io/nuget/v/Dapper.Contrib.svg)](https://www.nuget.org/packages/Dapper.Contrib.Firebird/) | [![Dapper.Contrib.Firebird](https://img.shields.io/nuget/vpre/Dapper.Contrib.svg)](https://www.nuget.org/packages/Dapper.Contrib.Firebird/) | [![Dapper.Contrib.Firebird](https://img.shields.io/nuget/dt/Dapper.Contrib.svg)](https://www.nuget.org/packages/Dapper.Contrib.Firebird/) | [![Dapper.Contrib.Firebird MyGet](https://img.shields.io/myget/dapper/vpre/Dapper.Contrib.svg)](https://www.myget.org/feed/dapper/package/nuget/Dapper.Contrib.Firebird) |
 
 Features
 --------
