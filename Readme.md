@@ -1,4 +1,4 @@
-Dapper.Contrib - a simple object mapper for .Net
+Dapper.Contrib.Firebird - a simple object mapper for .Net (has been adapted for use with Firebird)
 ========================================
 [![Build status](https://ci.appveyor.com/api/projects/status/1w448i6nfxd14w75?svg=true)](https://ci.appveyor.com/project/StackExchange/dapper-contrib)
 
