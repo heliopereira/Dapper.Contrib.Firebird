@@ -1120,7 +1120,7 @@ public partial class FbAdapter : ISqlAdapter
         connection.Execute(cmd, entityToInsert, transaction, commandTimeout);
 
         var propertyInfos = keyProperties as PropertyInfo[] ?? keyProperties.ToArray();
-        if (propertyInfos.Length == 0 || connection.GetType().Name.ToLower() == "fbconnection") return 0;
+        if (propertyInfos.Length == 0) return 0;
         var keyName = propertyInfos[0].Name;
         var r = connection.Query($"SELECT FIRST 1 {keyName} ID FROM {tableName} ORDER BY {keyName} DESC", transaction: transaction, commandTimeout: commandTimeout);
 
