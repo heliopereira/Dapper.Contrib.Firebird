@@ -13,7 +13,7 @@ MyGet Pre-release feed: https://www.myget.org/gallery/dapper
 
 | Package | NuGet Stable | NuGet Pre-release | Downloads | MyGet |
 | ------- | ------------ | ----------------- | --------- | ----- |
-| [Dapper.Contrib](https://www.nuget.org/packages/Dapper.Contrib/) | [![Dapper.Contrib](https://img.shields.io/nuget/v/Dapper.Contrib.svg)](https://www.nuget.org/packages/Dapper.Contrib/) | [![Dapper.Contrib](https://img.shields.io/nuget/vpre/Dapper.Contrib.svg)](https://www.nuget.org/packages/Dapper.Contrib/) | [![Dapper.Contrib](https://img.shields.io/nuget/dt/Dapper.Contrib.svg)](https://www.nuget.org/packages/Dapper.Contrib/) | [![Dapper.Contrib MyGet](https://img.shields.io/myget/dapper/vpre/Dapper.Contrib.svg)](https://www.myget.org/feed/dapper/package/nuget/Dapper.Contrib) |
+| [Dapper.Contrib](https://www.nuget.org/packages/Dapper.Contrib.Firebird/) | [![Dapper.Contrib](https://img.shields.io/nuget/v/Dapper.Contrib.svg)](https://www.nuget.org/packages/Dapper.Contrib.Firebird/) | [![Dapper.Contrib](https://img.shields.io/nuget/vpre/Dapper.Contrib.svg)](https://www.nuget.org/packages/Dapper.Contrib.Firebird/) | [![Dapper.Contrib](https://img.shields.io/nuget/dt/Dapper.Contrib.svg)](https://www.nuget.org/packages/Dapper.Contrib.Firebird/) | [![Dapper.Contrib MyGet](https://img.shields.io/myget/dapper/vpre/Dapper.Contrib.svg)](https://www.myget.org/feed/dapper/package/nuget/Dapper.Contrib.Firebird) |
 
 Features
 --------
@@ -21,7 +21,7 @@ Features
 Dapper.Contrib contains a number of helper methods for inserting, getting,
 updating and deleting records.
 
-The full list of extension methods in Dapper.Contrib right now are:
+The full list of extension methods in Dapper.Contrib.Firebird right now are:
 
 ```csharp
 T Get<T>(id);
